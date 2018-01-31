@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+   <head>
+
+      <title>jQuery.mmenu playground</title>
+      <meta charset="utf-8" />
+      <link href="layout.css" rel="stylesheet" />
+		<script src="js/jquery.js" type="text/javascript"></script>
+		<script src="js/jquery.mmenu.all.js" type="text/javascript"></script>
+		<link href="css/jquery.mmenu.all.css" type="text/css" rel="stylesheet" />
+
+   </head>
+   <body>
+		<nav id="my-menu">
+		   <ul>
+		      <li><a href="/">Home</a></li>
+		      <li><a href="/about/">About us</a>
+		         <ul>
+		            <li><a href="/about/history/">History</a></li>
+		            <li><a href="/about/team/">The team</a></li>
+		            <li><a href="/about/address/">Our address</a></li>
+		         </ul>
+		      </li>
+		      <li><a href="/contact/">Contact</a></li>
+		   </ul>
+		</nav>
+   </body>
